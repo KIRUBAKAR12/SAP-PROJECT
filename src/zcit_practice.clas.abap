@@ -1,0 +1,21 @@
+CLASS zcit_practice DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+    INTERFACES if_oo_adt_classrun .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcit_practice IMPLEMENTATION.
+
+
+  METHOD if_oo_adt_classrun~main.
+  OUT->WRITE( 'HELLOWORLD' ).
+  ENDMETHOD.
+ENDCLASS.
